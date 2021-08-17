@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="46px" viewBox="0 0 56 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>telegram-3</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.011765 0 0 0 0 0.227451 0 0 0 0 0.431373 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-11" transform="translate(-1130.000000, -2918.000000)" filter="url(#filter-1)">
+            <g transform="translate(40.000000, 2918.000000)" filter="url(#filter-2)" id="telegram-3">
+                <g transform="translate(1090.290323, 0.000000)">
+                    <path d="M20.400683,43.2170567 L21.2551194,30.3514426 L44.6910899,9.30414954 C45.7286198,8.36127945 44.4774807,7.905052 43.1042793,8.72626142 L14.1755033,26.9449443 L1.66411286,22.9909731 C-1.02125877,22.230594 -1.05177438,20.375269 2.27442457,19.0370018 L51.0078163,0.301261204 C53.235454,-0.702439188 55.3715451,0.848734145 54.5171087,4.2552324 L46.2168692,43.2170567 C45.637073,45.9848366 43.9587158,46.6539702 41.6395312,45.3765334 L29.0060784,36.0694934 L22.9334766,41.9396198 C22.2316182,42.6391686 21.651822,43.2170567 20.400683,43.2170567 Z" id="路径" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

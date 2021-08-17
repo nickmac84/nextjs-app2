@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mojitofrontendmaster-dev-124537-authRole",
+      "UnauthRoleArn": "arn:aws:iam::830231331882:role/amplify-mojitofrontendmaster-dev-124537-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::830231331882:role/amplify-mojitofrontendmaster-dev-124537-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mojitofrontendmaster-dev-124537-deployment",
+      "UnauthRoleName": "amplify-mojitofrontendmaster-dev-124537-unauthRole",
+      "StackName": "amplify-mojitofrontendmaster-dev-124537",
+      "StackId": "arn:aws:cloudformation:us-east-1:830231331882:stack/amplify-mojitofrontendmaster-dev-124537/a66d0040-ff50-11eb-b403-0eada22650a7",
+      "AmplifyAppId": "d26wuc60x3381c"
+    }
+  }
+}
