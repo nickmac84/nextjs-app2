@@ -6,13 +6,12 @@ const withLess = require('@zeit/next-less')
 const localeSubpaths = {}
 
 module.exports = {
-    webpack: (config, { isServer }) => {
-      if (!isServer) {
-        config.resolve.fallback.fs = false;
-      }
+    future: {
+      webpack5: true,
+    },
+    webpack: (config) => {
+      config.resolve.fallback = { fs: false };
+  
       return config;
     },
-  }
-
-
-  
+  };
