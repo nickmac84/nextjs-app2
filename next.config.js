@@ -5,13 +5,14 @@ const withLess = require('@zeit/next-less')
 
 const localeSubpaths = {}
 
-module.exports = withCss(withLess(withImages({
-    rewrites: async () => nextI18NextRewrites(localeSubpaths),
-    publicRuntimeConfig: {
-        localeSubpaths,
+module.exports = {
+    webpack: (config, { isServer }) => {
+      if (!isServer) {
+        config.resolve.fallback.fs = false;
+      }
+      return config;
     },
-    cssModules: true,
-    webpack: function (config) {
-        return config;
-    }
-})))
+  }
+
+
+  
