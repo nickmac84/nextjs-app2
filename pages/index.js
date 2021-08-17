@@ -45,7 +45,7 @@ const Home = ({ t }) => {
                     <div className={styles.text}>
                         <h1></h1>
                         <p>MOJITO.finance</p>
-                        <p>Future finance leader,<ReactTypingEffect typingDelay={300} eraseSpeed={0} text={["The future of trading."]} /></p>
+                        <p>Future finance lead,<ReactTypingEffect typingDelay={300} eraseSpeed={0} text={["The future of trading."]} /></p>
                         <p>
                             <Link href="http://123.56.72.197:3000/#/home">
                                 <button className={styles.lauch}>Launch App</button>
